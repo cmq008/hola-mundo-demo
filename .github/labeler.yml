@@ -1,3 +1,7 @@
 Documentation:
 - changed-files:
   - any-glob-to-any-file: docs/**
+
+Bug:
+- changed-files:
+  - any-glob-to-any-file: bug/**
