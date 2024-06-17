@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería de Fotos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+        }
+        .gallery img {
+            width: 200px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.2s;
+        }
+        .gallery img:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <h1>Galería de Fotos de Prueba</h1>
+    <div class="gallery">
+        <img src="https://via.placeholder.com/200x150" alt="Foto de prueba 1">
+        <img src="https://via.placeholder.com/200x150" alt="Foto de prueba 2">
+        <img src="https://via.placeholder.com/200x150" alt="Foto de prueba 3">
+        <img src="https://via.placeholder.com/200x150" alt="Foto de prueba 4">
+        <img src="https://via.placeholder.com/200x150" alt="Foto de prueba 5">
+        <img src="https://via.placeholder.com/200x150" alt="Foto de prueba 6">
+    </div>
+</body>
+</html>
